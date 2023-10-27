@@ -25,4 +25,4 @@ const productTagInfo = [
 
 const seedProductInfo = () => ProductTag.bulkCreate(productTagInfo);
 
-module.exports = seedProductInfo;
+export default seedProductInfo;

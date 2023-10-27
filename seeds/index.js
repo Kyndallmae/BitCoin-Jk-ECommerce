@@ -6,7 +6,7 @@ const productTagSeeds = require('./product-tag-seeds');
 const sequelize = require('../config/connection');
 
 const addSeeds = async () => {
-  await sequelize.sync({ force: true });
+  await sync({ force: true });
   console.log('Database added!');
   
   await categorySeeds();

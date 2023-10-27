@@ -20,4 +20,4 @@ const categorySeeds = [
 
 const seedCategories = () => Category.bulkCreate(categorySeeds);
 
-module.exports = seedCategories;
+export default seedCategories;

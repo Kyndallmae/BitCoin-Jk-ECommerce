@@ -26,4 +26,4 @@ Tag.init(
   }
 );
 
-module.exports = Tag;
+export default Tag;
